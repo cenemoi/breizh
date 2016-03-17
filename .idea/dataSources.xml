@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3625387334">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - breizh_db" uuid="89fc7738-ac39-4a1e-98e5-921c944adabe">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/breizh_db</jdbc-url>
+    </data-source>
+  </component>
+</project>
