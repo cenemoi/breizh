@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-#/vendor/*
-#/config/app.php
-#/tmp/*
-#/logs/*
-.idea
-=======
 /vendor/*
 /config/app.php
 /tmp/*
 /logs/*
->>>>>>> 58e4d278cfa522437cba54f13d0f003a8b5e39b4
+.idea
