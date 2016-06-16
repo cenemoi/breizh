@@ -24,10 +24,9 @@ $cakeDescription = 'Netapsys, tenter de gagner votre place pour la devOps ! ';
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
-    <?= $this->Html->meta('icon') ?>
-
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
+    <?= $this->Html->meta('favicon.ico','/webroot/favicon.ico',array('type' => 'icon')); ?>
+    <?= $this->Html->css('/webroot/css/base.css') ?>
+    <?= $this->Html->css('/webroot/css/cake.css') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -35,16 +34,11 @@ $cakeDescription = 'Netapsys, tenter de gagner votre place pour la devOps ! ';
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
-        <ul class="title-area large-3 medium-4 columns">
+        <ul class="title-area large-12 medium-12 columns">
             <li class="name">
-                <h1><a href="">Questionnaire</a></h1>
+                <h1><a href="">Es-tu vraiment dans l'esprit du BreizhCamp ?</a></h1>
             </li>
         </ul>
-        <section class="top-bar-section">
-            <ul class="right">
-                <li><a target="_blank" href="http://www.netapsys.fr/">Accès Netapsys</a></li>
-            </ul>
-        </section>
     </nav>
     <?= $this->Flash->render() ?>
     <section class="container clearfix">
