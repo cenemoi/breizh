@@ -23,6 +23,7 @@ class SurveysController extends AppController
            $usersTable = TableRegistry::get('Users');
            $users = $usersTable->find('all', ['order' => ['score' => 'desc']]);
            $users = $users->first();
+         // test
            $bestScore = $users['score'];
            $users = $usersTable->findAllByScore($bestScore);
            $users = $users->toArray();
